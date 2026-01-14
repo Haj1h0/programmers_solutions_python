@@ -16,3 +16,15 @@ def solution(nums):
             for k in range(j + 1, n):
                 answer += p(nums[i] + nums[j] + nums[k])
     return answer
+
+
+# import math
+
+# def is_prime(n: int) -> int:
+#     if n < 2:
+#         return 0
+#     for i in range(2, int(math.sqrt(n)) + 1):
+#         if n % i == 0:
+#             return 0
+#     return 1
+# isqrt는 소수점 이하를 버린 정수 결과
